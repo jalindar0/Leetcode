@@ -7,11 +7,11 @@ class Solution {
         
         int l =0;
         int r = people.length-1;
-        int val;
+    
         
         while(l < r){
             
-         val  = people[l]+ people[r];
+         int val  = people[l]+ people[r];
             
             if(val <= limit){
                 l++;
